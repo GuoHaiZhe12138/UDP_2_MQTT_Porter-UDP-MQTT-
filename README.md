@@ -1,6 +1,6 @@
 # SentinelCast 🚀
 
-SentinelCast 是一款专为嵌入式平台（如 Jetson）设计的 C++17 工业级数据转发网关。它能高效地将 **UDP 组播报文** 转换为 **MQTT 消息**。
+SentinelCast 是一款基于 C++17 工业级数据转发网关。它能高效地将 **UDP 组播报文** 转换为 **MQTT 消息**。
 
 ### 核心特性
 * **异步双线程**：UDP 接收与 MQTT 发送完全解耦，内置 `SafeQueue` 防止高频丢包。
