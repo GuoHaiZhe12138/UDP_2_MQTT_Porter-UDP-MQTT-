@@ -1,0 +1,5 @@
+*.o
+*.out
+SentinelCast
+build/
+.vscode/
